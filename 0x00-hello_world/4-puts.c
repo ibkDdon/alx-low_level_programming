@@ -1,2 +1,2 @@
 #!/bin/bash
-int puts("\"Programming is like building a multilingual puzzle")
+char str1[] = "\"Programming is like building a multilingual puzzle"; int puts(str1);

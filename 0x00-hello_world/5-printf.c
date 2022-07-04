@@ -1,6 +1,8 @@
 /**Initial Short Description*/
 #include <stdio.h>
-/**Prints*/
+/**
+ * Print
+ */
 int main(void) 
 {
 	printf("with proper grammar, but the outcome is a piece of art,\n");

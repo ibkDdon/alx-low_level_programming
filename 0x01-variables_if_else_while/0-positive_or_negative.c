@@ -9,7 +9,7 @@ int main(void)
 {
 	int n;
 
-	n = rand()
+	n = rand();
 	if (n > 0)
 		printf("%i is positive\n", n);
 	else if (n == 0)

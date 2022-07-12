@@ -1,8 +1,11 @@
 #include <stdio.h>
 /*
- * function test
+ * main function test
  */
 int main(void)
+	/*
+	 * main function description
+	 */
 {
 	char str1[] = "\"Programming is like building a multilingual puzzle";
 

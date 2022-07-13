@@ -8,7 +8,7 @@
 int main(void)
 {
 	char str1[26] = "abcdefghijklmnopqrstuvwxyz";
-	char str2[26] = "ABCDEFGHIJKLMNOPQRSTUVWXTZ";
+	char str2[26] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 	int i = 0;
 	int n = 26;
 

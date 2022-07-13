@@ -8,8 +8,12 @@
 int main(void)
 {
 	char str1[26] = "abcdefghijklmnopqrstuvwxyz";
+	int i = 0;
+	int n = 26;
 
-	putchar(str1[26]);
+	for (i = 0; i < n; ++i)
+		putchar(str1[i]);
+
 	putchar('\n');
 	return (0);
 }

@@ -11,7 +11,7 @@ int main(void)
 	int n = 16.0f;
 
 	for (i = 0; i < n; ++i)
-		putchar(i + '0.0f');
+		putchar(i + '0');
 
 	putchar('\n');
 	return (0);

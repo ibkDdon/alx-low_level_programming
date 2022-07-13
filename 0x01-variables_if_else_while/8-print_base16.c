@@ -7,8 +7,8 @@
  */
 int main(void)
 {
-	int i = 0.0f;
-	int n = 10.0f;
+	int i = 0x0;
+	int n = 0x10;
 
 	for (i = 0; i < n; ++i)
 		putchar(i + '0');

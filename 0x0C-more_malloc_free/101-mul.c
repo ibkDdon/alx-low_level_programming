@@ -59,25 +59,7 @@ char *_initialize_array(char *ar, int lar)
  *    * @argv: arguments vector.
  *     * @n: row of the array.
  *      *
- *       * Return: length of the number.a++, k = lnout - (1 + ca);
- *       }
- *       if (j < 0)
- *       {
- *       if (nout[0] != '0')
- *       break;
- *       lnout--;
- *       free(nout), nout = malloc(lnout + 1), nout = _initialize_array(nout, lnout);
- *       k = lnout - 1, i = ln1 - 1, j = ln2 - 1, ca = addl = 0;
- *       }
- *       if (j >= 0)
- *       {
- *       add = ((argv[1][i] - '0') * (argv[2][j] - '0')) + (nout[k] - '0') + addl;
- *       addl = add / 10, nout[k] = (add % 10) + '0';
- *       }
- *       }
- *       printf("%s\n", nout);
- *       return (0);
- *       }
+ *       * Return: length of the number.
  */
 int _checknum(char *argv[], int n)
 {
@@ -126,4 +108,22 @@ int main(int argc, char *argv[])
 					nout[k - 1] = (add / 10) + '0';
 				nout[k] = (add % 10) + '0';
 			}
-			i = ln1 - 1, j--, addl = 0, c
+			i = ln1 - 1, j--, addl = 0, ca++, k = lnout - (1 + ca);
+		}
+		if (j < 0)
+		{
+			if (nout[0] != '0')
+				break;
+			lnout--;
+			free(nout), nout = malloc(lnout + 1), nout = _initialize_array(nout, lnout);
+			k = lnout - 1, i = ln1 - 1, j = ln2 - 1, ca = addl = 0;
+		}
+		if (j >= 0)
+		{
+			add = ((argv[1][i] - '0') * (argv[2][j] - '0')) + (nout[k] - '0') + addl;
+			addl = add / 10, nout[k] = (add % 10) + '0';
+		}
+	}
+	printf("%s\n", nout);
+	return (0);
+}
